@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+ul  li {
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+li {
+    display: inline-block;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content img {
+    display: block;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    position: relative;
+    top: 100px;
+    right: 0;
+}
+
+.text {
+    font-size: 50px;
+}
+
+.border {
+    height: 150px;
+    width: 70%;
+    background-color: #233B6C;
+}
