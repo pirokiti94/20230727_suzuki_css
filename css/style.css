@@ -2,10 +2,11 @@
     display: flex;
     justify-content: space-between;
     margin: 20px;
+    width: 100%;
 }
 
 ul  li {
-    margin-left: 15px;
+    margin-left: 20px;
     font-weight: bold;
 }
 
@@ -21,15 +22,15 @@ a {
 .content img {
     display: block;
     margin-top: 50px;
-    margin-left: 600px;
+    margin-left: 52%;
+
 }
 
 img {
-    width: 600px;
-    height: auto;
+    width: 50%;
+    height: 50%;
     position: relative;
     top: 100px;
-    right: 0;
 }
 
 .text {
@@ -38,16 +39,6 @@ img {
 
 .border {
     height: 150px;
-    width: 900px;
+    width: 70%;
     background-color: #233B6C;
-}
-
-@media screen and (min-width: 1000px) {
-  .border {
-    width: 1200px;
-  }
-
-  .content img {
-    padding-left: 15%;
-  }
 }
