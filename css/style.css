@@ -21,11 +21,11 @@ a {
 .content img {
     display: block;
     margin-top: 50px;
-    margin-left: 500px;
+    margin-left: 600px;
 }
 
 img {
-    width: 500px;
+    width: 600px;
     height: auto;
     position: relative;
     top: 100px;
@@ -38,6 +38,16 @@ img {
 
 .border {
     height: 150px;
-    width: 70%;
+    width: 900px;
     background-color: #233B6C;
+}
+
+@media screen and (min-width: 1000px) {
+  .border {
+    width: 1200px;
+  }
+
+  .content img {
+    padding-left: 15%;
+  }
 }
