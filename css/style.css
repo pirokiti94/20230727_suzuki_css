@@ -1,7 +1,7 @@
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+    padding: 20px;
     width: 100%;
 }
 
@@ -22,7 +22,7 @@ a {
 .content img {
     display: block;
     margin-top: 50px;
-    margin-left: 52%;
+    margin-left: 53%;
 
 }
 
@@ -42,3 +42,4 @@ img {
     width: 70%;
     background-color: #233B6C;
 }
+
